@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 100%;
+  border: 1px solid #84cc16;
+  border-radius: 13px;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container {
+    width: 32%;
+    margin-right: 0px;
+  }
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  margin: 22px;
+}
+
+.text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 7px;
+}
+
+.money {
+  color: #475569;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  margin: 0px;
+}
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  width: 100%;
+  border: 1px solid #06b6d4;
+  border-radius: 13px;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .income-container {
+    width: 32%;
+    margin-right: 0px;
+  }
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 100%;
+  border: 1px solid #7c3aed;
+  border-radius: 13px;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .expenses-container {
+    width: 32%;
+    margin-right: 0px;
+  }
+}
